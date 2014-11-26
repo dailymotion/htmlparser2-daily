@@ -1,16 +1,16 @@
-#htmlparser2
+#htmlparser2-daily
 
-[![NPM version](http://img.shields.io/npm/v/htmlparser2.svg?style=flat)](https://npmjs.org/package/htmlparser2)
-[![Downloads](https://img.shields.io/npm/dm/htmlparser2.svg?style=flat)](https://npmjs.org/package/htmlparser2)
-[![Build Status](http://img.shields.io/travis/fb55/htmlparser2/master.svg?style=flat)](http://travis-ci.org/fb55/htmlparser2)
-[![Coverage](http://img.shields.io/coveralls/fb55/htmlparser2.svg?style=flat)](https://coveralls.io/r/fb55/htmlparser2)
+[![NPM version](http://img.shields.io/npm/v/htmlparser2-daily.svg?style=flat)](https://npmjs.org/package/htmlparser2-daily)
+[![Downloads](https://img.shields.io/npm/dm/htmlparser2-daily.svg?style=flat)](https://npmjs.org/package/htmlparser2-daily)
+[![Build Status](http://img.shields.io/travis/fb55/htmlparser2-daily/master.svg?style=flat)](http://travis-ci.org/fb55/htmlparser2-daily)
+[![Coverage](http://img.shields.io/coveralls/fb55/htmlparser2-daily.svg?style=flat)](https://coveralls.io/r/fb55/htmlparser2-daily)
 
 A forgiving HTML/XML/RSS parser written in JS for NodeJS. The parser can handle streams (chunked data) and supports custom handlers for writing custom DOMs/output.
 
+Internal version that allows Twig tags and statement in html tags (for attributes).
+
 ##Installing
-	npm install htmlparser2
-	
-A live demo of htmlparser2 is available at http://demos.forbeslindesay.co.uk/htmlparser2/
+	npm install htmlparser2-daily
 
 ##Usage
 
@@ -38,7 +38,7 @@ parser.end();
 Output (simplified):
 
 ```javascript
---> Xyz 
+--> Xyz
 JS! Hooray!
 --> var foo = '<<bar>>';
 That's it?!

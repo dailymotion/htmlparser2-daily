@@ -1,7 +1,7 @@
 {
   "name": "htmlparser2-daily",
   "description": "Fast & forgiving HTML/XML/RSS parser - tweak for twig",
-  "version": "3.8.2",
+  "version": "3.8.3",
   "author": "Romain Berger <romain@romainberger.com>",
   "keywords": [
     "html",

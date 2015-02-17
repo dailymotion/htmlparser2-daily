@@ -2,7 +2,7 @@
   "name": "htmlparser2-daily",
   "description": "Fast & forgiving HTML/XML/RSS parser - tweak for twig",
   "version": "3.8.3",
-  "author": "Romain Berger <romain@romainberger.com>",
+  "author": "Romain Berger <romain.berger@dailymotion.com>",
   "keywords": [
     "html",
     "parser",
@@ -15,11 +15,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/romainberger/htmlparser2-daily.git"
+    "url": "git://github.com/dailymotion/htmlparser2-daily.git"
   },
   "bugs": {
-    "mail": "romain@romainberger.com",
-    "url": "http://github.com/romainberger/htmlparser2-daily/issues"
+    "mail": "romain.berger@dailymotion.com",
+    "url": "http://github.com/dailymotion/htmlparser2-daily/issues"
   },
   "directories": {
     "lib": "lib/"
